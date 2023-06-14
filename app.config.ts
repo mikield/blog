@@ -1,19 +1,19 @@
 export default defineAppConfig({
   alpine: {
-    title: 'Alpine',
+    title: 'Mikield',
     description: 'The minimalist blog theme',
     image: {
-      src: '/social-card-preview.png',
+      src: '/alpine-0.webp',
       alt: 'An image showcasing my project.',
       width: 400,
       height: 300
     },
     header: {
-      position: 'right', // possible value are : | 'left' | 'center' | 'right'
+      position: 'left', // possible value are : | 'left' | 'center' | 'right'
       logo: {
         path: '/logo.svg', // path of the logo
         pathDark: '/logo-dark.svg', // path of the logo in dark mode, leave this empty if you want to use the same logo
-        alt: 'alpine' // alt of the logo
+        alt: '' // alt of the logo
       }
     },
     footer: {
